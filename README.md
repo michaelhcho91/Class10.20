@@ -1,4 +1,3 @@
-# Class10.20
+# Gochujang Chicken
 
-Practice repo
-Hello my name is Michael
+This repo contains a static HTML web page of a gochujang chicken recipe.
