@@ -1,0 +1,115 @@
+body {
+  background-color: darkolivegreen;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 80px;
+  text-align: center;
+  color: darkred;
+}
+
+h2 {
+  font-size: 40px;
+  margin-top: 80px;
+  color: gold;
+}
+
+h3 {
+  margin-left: 20px;
+}
+
+#main {
+  background-color: lightslategrey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70vw;
+  padding: 40px;
+  border: 3px solid black;
+}
+
+.links ul {
+  display: flex;
+  justify-content: space-evenly;
+  width: 30vw;
+  list-style: none;
+  list-style-type: none;
+  padding: 0;
+}
+
+.main-image {
+  max-width: 50vw;
+  margin-bottom: 20px;
+  border: 3px solid black;
+}
+
+.introduction {
+  background: white;
+  max-width: 50vw;
+}
+
+p {
+  margin: 25px;
+  text-align: center;
+  font-size: 25px;
+}
+
+section {
+  font-size: 20px;
+}
+
+.ingredients-section {
+  background-color: lightblue;
+  width: 50vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.gochujang-image {
+  max-width: 25vw;
+  border-left: 3px solid black;
+}
+
+.prep-section {
+  background-color: blanchedalmond;
+  display: flex;
+  max-width: 50vw;
+}
+
+.prep-section ul {
+  padding-right: 20px;
+}
+
+.sliced-onion-image-container {
+  height: 250px;
+  width: 600px;
+}
+
+.sliced-onion-image {
+  border-right: 3px solid black;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.instructions-section {
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.instructions-section ol {
+  padding-right: 20px;
+}
+
+.white-rice-image {
+  border-top: 3px solid black;
+}
+
+.tips-section {
+  background-color: white;
+  max-width: 50vw;
+}
